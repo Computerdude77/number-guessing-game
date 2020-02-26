@@ -17,7 +17,7 @@ int main()
             cin.clear();
             cin.ignore(256,'\n');
             cin >> x;
-            while (x = num){
+            while (x == num){
                 goto HACK;
             }}
         cout << "Guess again." << endl;
